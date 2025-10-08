@@ -39,7 +39,7 @@ async def start_chat():
     cl.user_session.set("chat_history", [
         {"role": "system", "content": SYSTEM_MESSAGE}
     ])
-    await cl.Message(content="Hi! I'm your e-commerce assistant. How can I help today?").send()
+    await cl.Message(content="Hi Safi! I'm your e-commerce assistant. How can I help today?").send()
 
 @cl.on_message
 async def handle_message(message: cl.Message):
