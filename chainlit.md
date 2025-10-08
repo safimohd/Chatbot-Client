@@ -1,14 +1,13 @@
-# Welcome to Chainlit! 🚀🤖
+This project is a Chainlit-based conversational AI assistant designed for an e-commerce platform.
+The assistant can naturally handle user queries like:
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+“Where is my order #12345?”
 
-## Useful Links 🔗
+“Can I return my shoes?”
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+“Is the iPhone 15 in stock?”
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+“What is your refund policy?”
 
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+The app uses OpenAI’s GPT model to dynamically generate realistic, human-like responses.
+No static rules or utility functions are used — the model creates mocked but believable data on its own (e.g., generating delivery dates, order numbers, and product details).
